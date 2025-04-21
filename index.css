@@ -1,10 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .bg-1 {
-    background-color: rgb(69, 40, 97);
-    justify-content: center;
-    display: flex;
-    color: white;
+  background-color: rgb(69, 40, 97);
+  justify-content: center;
+  display: flex;
+  color: white;
 }
 
 .bg-1:hover {
-background-color: rgb(155, 81, 224);
+  background-color: rgb(155, 81, 224);
+}
+
+.bg-header {
+  background: #6215bf;
+  background: linear-gradient(
+    90deg,
+    rgba(98, 21, 191, 1) 0%,
+    rgba(117, 22, 181, 1) 33%,
+    rgba(93, 51, 143, 1) 35%,
+    rgba(169, 41, 179, 1) 83%,
+    rgba(176, 48, 179, 1) 91%,
+    rgba(169, 77, 250, 1) 100%
+  );
+}
+
+.bg-footer {
+  background-color: rgb(60, 36, 82);
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
 }
